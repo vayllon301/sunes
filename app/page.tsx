@@ -36,11 +36,11 @@ export default function Home() {
         <div className="text-center space-y-8 max-w-4xl mx-auto px-4 animate-fade-in-up">
           <div className="flex justify-center mb-8">
             <Image
-              src="/sunes.jpg"
+              src="/sunes.png"
               alt="Logo SUNES"
-              width={120}
-              height={120}
-              className="rounded-full border-4 border-[#DC6C31] shadow-2xl"
+              width={150}
+              height={150}
+              className="object-contain"
               priority
             />
           </div>

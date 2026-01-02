@@ -13,13 +13,13 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#313131]/95 backdrop-blur-lg shadow-lg">
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3 group">
-          <span className="relative block h-10 w-10 overflow-hidden rounded-full ring-2 ring-[#DC6C31] group-hover:ring-4 transition-all">
+          <span className="relative block h-12 w-12">
             <Image
-              src="/sunes.jpg"
+              src="/sunes.png"
               alt="Logo SUNES"
               fill
-              className="object-cover"
-              sizes="40px"
+              className="object-contain"
+              sizes="48px"
               priority
             />
           </span>
